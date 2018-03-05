@@ -36,7 +36,7 @@ def reformat_languages(languages)
 new_hash = {}
 
   languages.each do |style, language|
-    language.each do |language_name, hash|
+    language.each do |language, hash|
       hash[:style] = [style]
         new_hash[language] = hash
     end
@@ -46,10 +46,10 @@ new_hash = {}
 
 end
 
-{:ruby=>{:type=>"interpreted", :style=>[:oo]},
- :javascript=>{:type=>"interpreted", :style=>[:functional]},
- :python=>{:type=>"interpreted", :style=>[:oo]},
- :java=>{:type=>"compiled", :style=>[:oo]},
- :clojure=>{:type=>"compiled", :style=>[:functional]},
- :erlang=>{:type=>"compiled", :style=>[:functional]},
- :scala=>{:type=>"compiled", :style=>[:functional]}}
+# {:ruby=>{:type=>"interpreted", :style=>[:oo]},
+#  :javascript=>{:type=>"interpreted", :style=>[:functional]},
+#  :python=>{:type=>"interpreted", :style=>[:oo]},
+#  :java=>{:type=>"compiled", :style=>[:oo]},
+#  :clojure=>{:type=>"compiled", :style=>[:functional]},
+#  :erlang=>{:type=>"compiled", :style=>[:functional]},
+#  :scala=>{:type=>"compiled", :style=>[:functional]}}
