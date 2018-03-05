@@ -41,4 +41,5 @@ new_hash = {}
         new_hash[language] = hash
     end
   end
+  new_hash
 end
