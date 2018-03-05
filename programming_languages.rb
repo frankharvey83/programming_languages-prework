@@ -41,9 +41,8 @@ new_hash = {}
         new_hash[language] = hash
     end
   end
+  new_hash[:javascript][:style] = [:oo, :functional]
   new_hash
-  binding.pry
-
 end
 
 # {:ruby=>{:type=>"interpreted", :style=>[:oo]},
