@@ -38,9 +38,8 @@ new_hash = {}
   languages.each do |style, language|
     language.each do |language, hash|
       hash[:style] = [style]
-        binding.pry
-        
-       new_hash[]
+
+       new_hash[language] = hash
     end
 
   end
