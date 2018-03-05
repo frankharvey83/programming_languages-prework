@@ -41,8 +41,7 @@ new_hash = {}
       new_hash << language
 # add style to existing hash as Array
 # add that hash to new hash
-new_hash
-binding.pry
+
     end
 
   end
