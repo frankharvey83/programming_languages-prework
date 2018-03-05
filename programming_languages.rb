@@ -41,7 +41,9 @@ new_hash = {}
         new_hash[language] = hash
     end
   end
-  new_hash[:javascript][:style] = [:oo, :functional]
+  new_hash[:javascript][:style] = [:oo, :functional] 
+  # the above line is hard-coded 
+  # how to solve this?
   new_hash
 end
 
