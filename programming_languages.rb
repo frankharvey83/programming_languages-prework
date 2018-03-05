@@ -43,5 +43,5 @@ new_hash = {}
     end
 
   end
-
+  binding.pry 
 end
