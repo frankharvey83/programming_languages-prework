@@ -37,11 +37,11 @@ new_hash = {}
 
   languages.each do |style, language|
     language.each do |language, hash|
-    binding.pry
-      
-
+      hash[:style] = [style]
+      new_hash << language
 # add style to existing hash as Array
 # add that hash to new hash
     end
   end
+  new_hash
 end
