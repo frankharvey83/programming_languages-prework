@@ -42,7 +42,8 @@ new_hash = {}
 # add style to existing hash as Array
 # add that hash to new hash
     end
+    new_hash
+    binding.pry
   end
-  new_hash
-  binding.pry
+
 end
