@@ -43,7 +43,7 @@ new_hash = {}
   end
   new_hash
   binding.pry
-  
+
 end
 
 {:ruby=>{:type=>"interpreted", :style=>[:oo]},
